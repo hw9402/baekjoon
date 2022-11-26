@@ -14,6 +14,29 @@
 #include <iostream>
 using namespace std;
 int main() {
-    
+    int c, n, i, j, sum;
+    int over=0, nover=0;
+    double avr;
+    int score[1001] = {0};
+    cin >> c;
+    for(i=0; i<c; i++) {
+        sum = 0;
+        avr = 0;
+        over = 0;
+        nover = 0;
+        cin >> n;
+        for(j=0; j<n; j++) {
+            cin >> score[j];
+            sum += score[j];
+        }
+        avr = sum/n;
+        for(j=0; j<n; j++) {
+            if(score[j] > avr) over++;
+            else nover++;
+        }
+        cout << fixed;
+        cout.precision(3);
+        cout << (double)over/n*100 << "%\n";
+    }
     return 0;
 }
