@@ -1,4 +1,4 @@
-# Baekjoon (Python)
+# Baekjoon (C++)
 
 ## 현재 목표: 단계별로 풀기
 <details>
