@@ -7,4 +7,5 @@
     <div markdown="2">02. 조건문</div>
     <div markdown="3">03. 반복문</div>
     <div markdown="4">04. 1차원 배열</div>
+    <div markdown="5">05. 함수</div>
 </details>
